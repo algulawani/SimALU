@@ -6,7 +6,7 @@ module decoder3_8(
 
     input [2:0] w;
     input en;
-    output reg f [7:0];
+    output reg [7:0] f;
 
     always @ (*) begin
         if (en == 1'b0)
